@@ -50,7 +50,7 @@ def ons_parse(basepath,args, arglist,missing):
 
 
 def main():
-    basepath='/Users/gracer/Desktop/data'
+    basepath='/Users/barifuchs/UNCworkshop_data/ds000030_R1.0.5'
     
 
     parser=argparse.ArgumentParser(description='onset parser, expecting a tsv file')
@@ -69,7 +69,7 @@ def main():
     ons_parse(basepath, args, arglist,missing)    
 main()
 
-os.chdir('/Users/gracer/Google Drive/fMRI_workshop/scripts/')
+os.chdir('/Users/barifuchs/fmri_workshop/')
     
     
 
