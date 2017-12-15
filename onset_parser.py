@@ -69,9 +69,13 @@ def main():
     ons_parse(basepath, args, arglist,missing)    
 main()
 
+<<<<<<< HEAD
 os.chdir('/Users/barifuchs/fmri_workshop/')
+=======
+os.chdir('/Users/gracer/Desktop/fMRI_workshop')
+>>>>>>> 47feec8752d063f32ddbcaf84d57b16b62c867e7
     
     
-
+#%run onset_parser.py -task bart -cols action_CASHOUT action_ACCEPT action_EXPLODE
 
 #%cd /Users/gracer/Google\ Drive/fMRI_workshop/scripts/
